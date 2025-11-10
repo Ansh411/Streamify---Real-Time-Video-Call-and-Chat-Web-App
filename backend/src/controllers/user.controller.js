@@ -73,7 +73,7 @@ export async function sendFriendRequest(req, res) {
             recipient: recipientId
         })
 
-        res.status(201).josn(friendRequest);
+        res.status(201).json(friendRequest);
 
     } catch (error) {
         console.error("Error in sendFriendRequest controller", error.message);
