@@ -9,7 +9,7 @@ export async function getRecommendedUsers(req, res) {
         const recommendedUsers = await User.find({
             $and: [
                 {_id: { $ne: currentUserId }},
-                { $id: { $nin: currentUser.friends }},
+                { _id: { $nin: currentUser.friends }},
                 {isOnboarded: true},
             ],
         });
@@ -144,7 +144,7 @@ export async function getOutgoingFriendReqs(req, res) {
         status: "pending",
        }).populate("recipient", "fullName, nativeLanguage, learningLanguage");
 
-       res.status(200).json()
+       res.status(200).json(outgoingRequests);
 
     } catch (error) {
         console.log("Error in getOutgoingFriendReqs controller", error.message);
