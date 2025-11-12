@@ -67,7 +67,7 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 | **Frontend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="25"/> <b>React</b>,  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="25"/> <b>Tailwind CSS</b>,  <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo.svg" width="25"/> <b>DaisyUI </b> |
 | **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/> <b>Node.js</b>,  <img width="25" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js"/> <b>Express.js</b> |
 | **Database** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="25"/> <b>MongoDB</b> |
-| **Real-time Engine** | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="25"/> <b>Stream API</b>, <img width="25" src="https://img.icons8.com/pastel-glyph/64/website--v2.png" /> <b>WebRTC</b> |
+| **Real-time Engine** | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="25"/> <b>Stream API</b>, <img width="25" src="https://img.icons8.com/pastel-glyph/64/website--v1.png"/> <b>WebRTC</b> |
 | **Authentication** | <img width="25" src="https://img.icons8.com/papercut/60/json.png" /> <b>JWT</b>,  <img width="25" src="https://img.icons8.com/color/48/lock--v1.png" alt="lock--v1"/> <b>bcrypt</b> |
 | **Deployment** | <img width="25" src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-rocket-achievements-flaticons-flat-flat-icons-2.png" alt="external-rocket-achievements-flaticons-flat-flat-icons-2"/> <b>Render</b> |
 
