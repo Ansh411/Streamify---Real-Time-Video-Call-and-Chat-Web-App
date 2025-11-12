@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./i.png" alt="Streamify Video Call" width="300"/>
+  <img src="https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App/blob/main/i.png?raw=true" alt="Streamify Preview" width="300"/>
 </p>
 
 <h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
@@ -66,9 +66,9 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 | **Frontend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="25"/> React, <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="25"/> Tailwind CSS, DaisyUI |
 | **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/> Node.js, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="25"/> Express.js |
 | **Database** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="25"/> MongoDB |
-| **Real-time Engine** | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="25"/> Stream API, <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/WebRTC_Logo.svg" width="25"/> WebRTC |
+| **Real-time Engine** | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="25"/> Stream API, <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/WebRTC_Logo.svg" width="25"/> WebRTC |
 | **Authentication** | JWT, bcrypt |
-| **Deployment** | <img src="https://www.svgrepo.com/show/327408/logo-render.svg" width="25"/> Render |
+| **Deployment** | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Render_%28web_hosting%29_logo.svg/512px-Render_%28web_hosting%29_logo.svg.png" width="25"/> Render |
 
 ---
 
@@ -78,7 +78,6 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 ```bash
 git clone https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App.git
 cd Streamify---Real-Time-Video-Call-and-Chat-Web-App
-
 ```
 ### 2️⃣ Install Dependencies
 #### Backend
@@ -90,6 +89,14 @@ npm install
 npm install
 ```
 
-⭐ If you liked this project, don’t forget to give it a star on GitHub!
+### 3️⃣ Setup Environment Variables
 
-<p align="center">💚 Made with Passion & Code by <b>Ansh Gupta</b> 💚</p> ```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STREAM_API_KEY=your_stream_api_key
+STREAM_API_SECRET=your_stream_api_secret
+
+<p align="center">⭐ If you liked this project, don’t forget to give it a star on GitHub!</p>
+
+<p align="center">💚 Made with Passion & Code by <b>Ansh Gupta</b> 💚</p>
+
