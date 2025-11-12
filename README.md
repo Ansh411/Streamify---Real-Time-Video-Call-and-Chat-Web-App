@@ -65,7 +65,7 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 | Category | Technologies |
 |-----------|--------------|
 | **Frontend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="25"/> React, <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="25"/> Tailwind CSS, <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo.svg" width="25"/> DaisyUI |
-| **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/> Node.js, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="25"/> Express.js |
+| **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/> Node.js, <img width="25" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js"/>  Express.js |
 | **Database** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="25"/> MongoDB |
 | **Real-time Engine** | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="25"/> Stream API, <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/WebRTC_Logo.svg" width="25"/> WebRTC |
 | **Authentication** | JWT, bcrypt |
