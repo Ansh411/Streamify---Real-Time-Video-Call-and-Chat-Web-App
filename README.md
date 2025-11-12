@@ -90,6 +90,6 @@ npm install
 npm install
 ```
 
-### ⭐ If you liked this project, don’t forget to give it a star on GitHub!
+⭐ If you liked this project, don’t forget to give it a star on GitHub!
 
-<p align="center">💚 Made with Passion & Code by <b>Ansh Gupta</b> 💚</p> 
+<p align="center">💚 Made with Passion & Code by <b>Ansh Gupta</b> 💚</p> ```
