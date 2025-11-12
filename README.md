@@ -1,5 +1,5 @@
 <p align="center">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe id="js_video_iframe" src="https://jumpshare.com/embed/uhbvPqg5fpFYt6nhcHEx" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+  <img src="https://storyset.com/illustration/video-call/bro" alt="Streamify Preview" >
 </p>
 
 <h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
