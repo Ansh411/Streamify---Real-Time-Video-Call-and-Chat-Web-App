@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://cdn.dribbble.com/users/1187278/screenshots/16786888/media/f0a5a223ad2c7fa0b6d0f7f0150a2c57.png" alt="Streamify Preview" width="400">
+  <img src="https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App/blob/main/preview.png?raw=true" alt="Streamify Preview" width="400">
 </p>
+
 
 <h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
 
