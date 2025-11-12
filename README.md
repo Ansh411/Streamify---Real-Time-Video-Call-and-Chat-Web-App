@@ -1,6 +1,6 @@
-<p align="center">
+
   ![App Logo](/frontend/public/preview.png)
-</p>
+
 
 
 <h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
