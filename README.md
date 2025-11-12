@@ -1,79 +1,95 @@
-# 🚀 Streamify — Real-Time Video Call & Chat Web App
+<p align="center">
+  <img src="./i.png" alt="Streamify Video Call" width="300"/>
+</p>
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamify-green?style=for-the-badge)](https://streamify-web.onrender.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+<h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
 
-## 🌐 Live Project  
-👉 **Try it here:** [https://streamify-web.onrender.com/](https://streamify-web.onrender.com/)
-
----
-
-## 🧩 Overview
-
-**Streamify** is a **real-time communication platform** that combines **video calling, chat, file sharing, and reactions** into one seamless experience.  
-Built using **React**, **Node.js**, **Express**, **Stream API**, and **WebRTC**, Streamify enables **instant video and text communication**, complete with **screen sharing, video recording**, and **32 beautiful UI themes** using **DaisyUI**.
+<p align="center">
+  <a href="https://streamify-web.onrender.com/"><img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel"></a>
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Build-Passing-success?style=for-the-badge">
+</p>
 
 ---
 
-## ✨ Key Features
+## 🌐 **Live App**
+👉 **Try it now:** [https://streamify-web.onrender.com/](https://streamify-web.onrender.com/)
 
-### 💬 Real-Time Chat
-- Instant real-time messaging using **Stream API**
-- **Typing indicators** — see when the other user is typing  
-- **Threaded messages** — start new conversations from existing messages  
-- **Image sharing** in chat  
-- **Emoji reactions** for each message  
+---
 
-### 🎥 Real-Time Video Calling
-- **One-on-one HD video calls** using **WebRTC**  
+## 🧭 **Overview**
+
+**Streamify** is a **real-time communication platform** that enables seamless **video calling, instant messaging, screen sharing, and reactions** — all in one beautifully styled interface.  
+Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a fast, modern, and feature-rich experience for users who love to connect.
+
+💡 _A perfect fusion of technology and elegant UI — powered by 32+ dynamic DaisyUI themes!_
+
+---
+
+## ✨ **Features**
+
+### 💬 Chat Features
+- Real-time messaging using **Stream API**
+- **Typing indicator** for active conversations  
+- **Threaded replies** for message discussions  
+- **Image sharing** in chats  
+- **Reactions** (❤️ 😂 😮 etc.) on messages  
+
+### 🎥 Video Call Features
+- One-on-one **real-time video calling** via **WebRTC**  
 - **Screen sharing** support  
-- **Video recording** feature  
-- **Reactions during call** (emoji overlays)  
-- **Auto reconnect & live call status**  
+- **Video recording** option  
+- **Emoji reactions** during call  
+- Live call status updates  
 
-### 🌈 User Interface
-- **32+ pre-styled DaisyUI themes** for personalization  
-- Fully **responsive** across devices  
-- Dynamic **theme toggle** (light/dark/system)  
+### 🎨 UI & Themes
+- 32+ **DaisyUI** pre-built themes  
+- Responsive and modern interface  
+- **Theme switcher** (Light 🌞 / Dark 🌙 / System ⚙️)
 
-### 👥 Social Features
-- **Friend system** (send/accept friend requests)  
-- **Notification system** for requests & chats  
-- **Online/offline presence detection**  
+### 🧑‍🤝‍🧑 Social Features
+- **Friend request system**  
+- **Notifications** for requests and messages  
+- **Online/Offline** status tracking  
 
 ### 🔐 Security & Authentication
-- JWT-based authentication  
-- Passwords hashed with **bcrypt**  
-- Session management with cookies  
-
-### ⚙️ Miscellaneous
-- Onboarding flow with user profile setup  
-- Profile pictures & bios  
-- Modern, minimal design with smooth animations  
+- JWT Authentication  
+- Hashed passwords (bcrypt)  
+- Secure cookies for sessions  
 
 ---
 
-## 🛠️ Tech Stack
+## 🧰 **Tech Stack**
 
-| Technology | Purpose | Logo |
-|-------------|----------|------|
-| **React.js** | Frontend framework | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="30"/> |
-| **Node.js** | Backend runtime environment | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="30"/> |
-| **Express.js** | Backend web framework | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="30"/> |
-| **MongoDB** | NoSQL database | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="30"/> |
-| **Stream API** | Real-time chat & video infrastructure | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="30"/> |
-| **WebRTC** | Peer-to-peer video streaming | <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/WebRTC_Logo.svg" width="30"/> |
-| **Tailwind CSS** | Utility-first CSS framework | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="30"/> |
-| **DaisyUI** | Tailwind components library with 32 themes | 🌼 |
-| **JWT** | Secure authentication | 🔑 |
-| **React Router** | SPA routing | 🧭 |
-| **Render** | Deployment platform | ☁️ |
+| Category | Technologies |
+|-----------|--------------|
+| **Frontend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="25"/> React, <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="25"/> Tailwind CSS, DaisyUI |
+| **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/> Node.js, <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="25"/> Express.js |
+| **Database** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="25"/> MongoDB |
+| **Real-time Engine** | <img src="https://avatars.githubusercontent.com/u/8576662?s=200&v=4" width="25"/> Stream API, <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/WebRTC_Logo.svg" width="25"/> WebRTC |
+| **Authentication** | JWT, bcrypt |
+| **Deployment** | <img src="https://www.svgrepo.com/show/327408/logo-render.svg" width="25"/> Render |
 
 ---
 
-## ⚙️ Installation & Setup Guide
+## ⚙️ **Installation Guide**
 
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App.git
 cd Streamify---Real-Time-Video-Call-and-Chat-Web-App
+
+```
+### 2️⃣ Install Dependencies
+#### Backend
+```bash
+npm install
+```
+#### Frontend
+```bash
+npm install
+```
+
+### ⭐ If you liked this project, don’t forget to give it a star on GitHub!
+
+<p align="center">💚 Made with Passion & Code by <b>Ansh Gupta</b> 💚</p> 
