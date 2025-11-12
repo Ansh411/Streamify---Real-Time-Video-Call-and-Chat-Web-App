@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App/blob/main/preview.png?raw=true" alt="Streamify Preview" width="400">
+  ![App Logo](/frontend/public/preview.png)
 </p>
 
 
@@ -27,36 +27,22 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 
 ---
 
+<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
+
+![Demo App](/frontend/public/screenshot_for_readme.jpg)
+
 ## ✨ **Features**
 
-### 💬 Chat Features
-- Real-time messaging using **Stream API**
-- **Typing indicator** for active conversations  
-- **Threaded replies** for message discussions  
-- **Image sharing** in chats  
-- **Reactions** (❤️ 😂 😮 etc.) on messages  
+- 💬 Real-time chat with **typing indicators**, **reactions**, and **media sharing**  
+- 📹 **1-on-1 & group video calls** with **screen sharing** and **recording**  
+- 🔐 **JWT authentication** with protected routes  
+- 🌍 **Multi-theme** language exchange interface (32+ DaisyUI themes)  
+- ⚡ Built using **React**, **Express**, **MongoDB**, **TailwindCSS**, and **TanStack Query**  
+- 🧠 **Global state management** via **Zustand**  
+- 🚨 Robust **error handling** (frontend & backend)  
+- 🚀 **Free deployment** on **Render**  
+- 🎯 Powered by **Stream API** for real-time scalability  
 
-### 🎥 Video Call Features
-- One-on-one **real-time video calling** via **WebRTC**  
-- **Screen sharing** support  
-- **Video recording** option  
-- **Emoji reactions** during call  
-- Live call status updates  
-
-### 🎨 UI & Themes
-- 32+ **DaisyUI** pre-built themes  
-- Responsive and modern interface  
-- **Theme switcher** (Light 🌞 / Dark 🌙 / System ⚙️)
-
-### 🧑‍🤝‍🧑 Social Features
-- **Friend request system**  
-- **Notifications** for requests and messages  
-- **Online/Offline** status tracking  
-
-### 🔐 Security & Authentication
-- JWT Authentication  
-- Hashed passwords (bcrypt)  
-- Secure cookies for sessions  
 
 ---
 
@@ -71,26 +57,7 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 | **Authentication** | <img width="25" src="https://img.icons8.com/papercut/60/json.png" />&ensp; <b>JWT</b> &ensp;, <img width="25" src="https://img.icons8.com/color/48/lock--v1.png" alt="lock--v1"/>&ensp; <b>bcrypt</b> |
 | **Deployment** | <img width="25" src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-rocket-achievements-flaticons-flat-flat-icons-2.png" />&ensp; <b>Render</b> |
 
----
 
-<h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
-
-![Demo App](/frontend/public/screenshot_for_readme.jpg)
-
-Highlights:
-
-- 🌐 Real-time Messaging with Typing Indicators & Reactions
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
-- 🔐 JWT Authentication & Protected Routes
-- 🌍 Language Exchange Platform with 32 Unique UI Themes
-- ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
-- 🧠 Global State Management with Zustand
-- 🚨 Error Handling (Frontend & Backend)
-- 🚀 Free Deployment
-- 🎯 Built with Scalable Technologies like Stream
-- ⏳ And much more!
-
----
 
 ## 🧪 .env Setup
 
