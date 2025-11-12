@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App/blob/main/i.png?raw=true" alt="Streamify Preview" width="300"/>
+  <img src="https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App/frontend/public/i.png" alt="Streamify Preview" width="300"/>
 </p>
 
 <h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
@@ -91,10 +91,10 @@ npm install
 
 ### 3️⃣ Setup Environment Variables
 
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-STREAM_API_KEY=your_stream_api_key
-STREAM_API_SECRET=your_stream_api_secret
+MONGO_URI=your_mongodb_connection_string <br>
+JWT_SECRET=your_jwt_secret<br>
+STREAM_API_KEY=your_stream_api_key <br>
+STREAM_API_SECRET=your_stream_api_secret <br>
 
 <p align="center">⭐ If you liked this project, don’t forget to give it a star on GitHub!</p>
 
