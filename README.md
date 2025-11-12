@@ -64,11 +64,11 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 
 | Category | Technologies |
 |-----------|--------------|
-| **Frontend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="25"/>&ensp; <b>React</b>,  <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="25"/>&ensp; <b>Tailwind CSS</b>,  <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo.svg" width="25"/>&ensp; <b>DaisyUI </b> |
-| **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/>&ensp; <b>Node.js</b>,  <img width="25" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js"/>&ensp; <b>Express.js</b> |
+| **Frontend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="25"/>&ensp; <b>React</b> , <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="25"/>&ensp; <b>Tailwind CSS</b> , <img src="https://raw.githubusercontent.com/saadeghi/files/main/daisyui/logo.svg" width="25"/>&ensp; <b>DaisyUI </b> |
+| **Backend** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="25"/>&ensp; <b>Node.js</b> , <img width="25" src="https://img.icons8.com/nolan/64/express-js.png" alt="express-js"/>&ensp; <b>Express.js</b> |
 | **Database** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="25"/>&ensp; <b>MongoDB</b> |
-| **Real-time Engine** | <img width="25" src="https://img.icons8.com/stickers/100/live-video-on.png" /> &ensp;<b>Stream API</b>, <img width="25" src="https://img.icons8.com/papercut/60/domain.png"/>&ensp; <b>WebRTC</b> |
-| **Authentication** | <img width="25" src="https://img.icons8.com/papercut/60/json.png" />&ensp; <b>JWT</b>,  <img width="25" src="https://img.icons8.com/color/48/lock--v1.png" alt="lock--v1"/>&ensp; <b>bcrypt</b> |
+| **Real-time Engine** | <img width="25" src="https://img.icons8.com/stickers/100/live-video-on.png" /> &ensp;<b>Stream API</b> , <img width="25" src="https://img.icons8.com/papercut/60/domain.png"/>&ensp; <b>WebRTC</b> |
+| **Authentication** | <img width="25" src="https://img.icons8.com/papercut/60/json.png" />&ensp; <b>JWT</b> , <img width="25" src="https://img.icons8.com/color/48/lock--v1.png" alt="lock--v1"/>&ensp; <b>bcrypt</b> |
 | **Deployment** | <img width="25" src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-rocket-achievements-flaticons-flat-flat-icons-2.png" />&ensp; <b>Render</b> |
 
 ---
