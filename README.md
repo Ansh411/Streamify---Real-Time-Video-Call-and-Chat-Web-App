@@ -1,5 +1,8 @@
 
-  ![App Logo](/frontend/public/preview.png)
+<p align="center">
+  <img src="https://github.com/Ansh411/Streamify---Real-Time-Video-Call-and-Chat-Web-App/blob/main/preview.png?raw=true" alt="Streamify Preview" width="400">
+</p>
+
 
 
 
