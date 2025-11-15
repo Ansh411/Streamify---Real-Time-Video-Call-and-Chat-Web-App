@@ -6,29 +6,79 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #c9e8c9, #b7e7bb);
+
+  background: linear-gradient(
+    25deg,
+    #d9e8ff,
+    #c5d6ff,
+    #e2d9ff
+  ); /* soft blue → indigo → violet */
   height: 100%;
 }
 
+/* 📦 Chat Container (Glass + Premium White) */
 .str-chat__container {
   max-width: 1200px;
   width: 100%;
   height: 80% !important;
   margin: 0 auto !important;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
+/* 💬 Message List (Minimal + Clean) */
 .str-chat__list {
   background-color: #ffffff;
-  padding: 12px;
+  padding: 18px;
+
+  box-shadow: inset 0 6px 14px rgba(0, 0, 0, 0.05);
 }
 
+/* Hide top notifications */
 .str-chat__list-notifications {
   display: none;
 }
 
+/* ✍️ Message Input (Soft, Bright & Clean) */
 .str-chat__message-input {
-  border-top: 1px solid #ddd;
+  background: #f7f9ff;
+  border-top: 1px solid #dce2f7;
+  padding: 14px;
+
+  box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Input focus highlight */
+.str-chat__message-input textarea:focus-visible {
+  outline: none !important;
+  border-color: #6f8cff;
+  box-shadow: 0 0 0 2px rgba(111, 140, 255, 0.35);
+}
+
+/* 🟣 Stylish Bubbles */
+.str-chat__message--me .str-chat__message-text {
+  background: linear-gradient(135deg, #b6d1ff, #cfcaff) !important;
+  color: #1a1a1a !important;
+  border-radius: 12px !important;
+}
+
+.str-chat__message-text {
+  background: #f1f3ff !important;
+  border-radius: 12px !important;
+}
+
+/* Header clean + modern */
+.str-chat__header,
+.str-chat__header-livestream {
+  background: #ffffff !important;
+  border-bottom: 1px solid #e6e6f0 !important;
+  padding: 14px 18px !important;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
 }
