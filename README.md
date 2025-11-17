@@ -9,7 +9,7 @@
 <h1 align="center">🎥 Streamify — Real-Time Video Call & Chat Web App</h1>
 
 <p align="center">
-  <a href="https://streamify-web.onrender.com/"><img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel"></a>
+  <a href="https://streamify-gsxa.onrender.com"><img src="https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel"></a>
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Build-Passing-success?style=for-the-badge">
 </p>
@@ -17,7 +17,7 @@
 ---
 
 ## 🌐 **Live App**
-👉 **Try it now:** [https://streamify-web.onrender.com/](https://streamify-web.onrender.com/)
+👉 **Try it now:** [https://streamify-web.onrender.com/](https://streamify-gsxa.onrender.com)
 
 ---
 
