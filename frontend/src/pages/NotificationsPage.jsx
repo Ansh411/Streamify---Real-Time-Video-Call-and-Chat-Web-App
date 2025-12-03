@@ -3,8 +3,11 @@ import { acceptFriendRequest, getFriendRequests } from "../lib/api";
 import { BellIcon, ClockIcon, MessageSquareIcon, UserCheckIcon } from "lucide-react";
 import NoNotificationsFound from "../components/NoNotificationsFound.jsx";
 import { capitialize } from "../lib/utils.js";
+import { useState } from "react";
 
 const NotificationsPage = () => {
+
+  const [loadingId, setLoadingId] = useState(null);
 
   const queryClient = useQueryClient();
 
@@ -13,7 +16,7 @@ const NotificationsPage = () => {
     queryFn: getFriendRequests,
   });
 
-  const { mutate: acceptRequestMutation, isPending } = useMutation({
+  const { mutate: acceptRequestMutation} = useMutation({
     mutationFn: acceptFriendRequest,
     onSuccess: () => {
         queryClient.invalidateQueries({ queryKey: ["friendRequests"]});
@@ -64,8 +67,11 @@ const NotificationsPage = () => {
                             </div>
                           </div>
                         </div>
-                        <button className="btn btn-primary btn-sm" onClick={() => acceptRequestMutation(request._id)} disabled={isPending}>
-                          Accept
+                        <button className="btn btn-primary btn-sm" onClick={() => {
+                          setLoadingId(request._id);
+                          acceptRequestMutation(request._id , {onSettled: () => setLoadingId(null),});
+                        }}>
+                          {loadingId === request._id ? "Accepting..." : "Accept"}
                         </button>
                       </div>
                     </div>
