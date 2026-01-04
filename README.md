@@ -33,17 +33,17 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 <h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
 
 <div align="center">
-      <img src = "https://iili.io/fw1rSkv.md.png" width ="400" /> 
-      <img src = "https://iili.io/fw1PUpj.md.png" width ="400" /> 
+      <img src = "./Streamify Previews/Sign In.png" width ="400" /> 
+      <img src = "./Streamify Previews/Sign Up.png" width ="400" /> 
       <br/>
-      <img src = "https://iili.io/fw1Sfz7.md.png" width ="400" /> 
-      <img src = "https://iili.io/fw1LVpa.md.png" width ="400" /> 
+      <img src = "./Streamify Previews/Onboarding.png" width ="400" /> 
+      <img src = "./Streamify Previews/Friends.png" width ="400" /> 
       <br/> 
-      <img src = "https://iili.io/fw1D1oJ.md.png" width ="400" /> 
-      <img src = "https://iili.io/fw1QiNa.md.png" width ="400" />
+      <img src = "./Streamify Previews/Notifications.png" width ="400" /> 
+      <img src = "./Streamify Previews/Home.png" width ="400" />
       <br/>
-      <img src = "https://iili.io/fw1mYQa.md.png" width ="400" />
-      <img src = "https://iili.io/fw1pXSV.md.png" width ="400" /> 
+      <img src = "./Streamify Previews/Chat.png" width ="400" />
+      <img src = "./Streamify Previews/Video Call - Screen Sharing.png" width ="400" /> 
       <br/>
 </div>
 <br/><hr/>
