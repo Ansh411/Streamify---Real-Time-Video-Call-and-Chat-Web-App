@@ -32,7 +32,21 @@ Built with **React**, **Express**, **Stream API**, and **WebRTC**, it provides a
 
 <h1 align="center">✨ Fullstack Chat & Video Calling App ✨</h1>
 
-![Demo App](/frontend/public/screenshot_for_readme.jpg)
+<div align="center">
+      <img src = "https://iili.io/fw1rSkv.md.png" width ="400" /> 
+      <img src = "https://iili.io/fw1PUpj.md.png" width ="400" /> 
+      <br/>
+      <img src = "https://iili.io/fw1Sfz7.md.png" width ="400" /> 
+      <img src = "https://iili.io/fw1LVpa.md.png" width ="400" /> 
+      <br/> 
+      <img src = "https://iili.io/fw1D1oJ.md.png" width ="400" /> 
+      <img src = "https://iili.io/fw1QiNa.md.png" width ="400" />
+      <br/>
+      <img src = "https://iili.io/fw1mYQa.md.png" width ="400" />
+      <img src = "https://iili.io/fw1pXSV.md.png" width ="400" /> 
+      <br/>
+</div>
+<br/><hr/>
 
 ## ✨ **Features**
 
