@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router";
 import useAuthUser from "../hooks/useAuthUser.js";
 import useLogout from "../hooks/useLogout.js";
-import { BellIcon, LogOutIcon, ShipWheelIcon } from "lucide-react";
+import { BellIcon, LogOutIcon, ShipWheelIcon, ArrowLeftIcon } from "lucide-react";
 import ThemeSelector from "./ThemeSelector.jsx";
 
 
@@ -9,7 +9,9 @@ const Navbar = () => {
 
     const { authUser } = useAuthUser();
     const location = useLocation();
+    
     const isChatPage = location.pathname?.startsWith("/chat");
+    const isHomePage = location.pathname === "/";
 
     const { logoutMutation } = useLogout();
 
@@ -29,7 +31,12 @@ const Navbar = () => {
                         </Link>
                     </div>
                 )}
-
+                {!isChatPage && !isHomePage && (
+                    <Link to="/" className="lg:hidden btn btn-ghost btn-circle"
+                            aria-label="Go to Home">
+                        <ArrowLeftIcon className="h-6 w-6 text-base-content opacity-70" />
+                    </Link>
+                )}
                 <div className="flex items-center gap-3 sm:gap-4 ml-auto">
                     <Link to={"/notifications"}>
                     <button className="btn btn-ghost btn-circle">

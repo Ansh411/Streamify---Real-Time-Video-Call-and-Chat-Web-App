@@ -95,23 +95,50 @@ const CallPage = () => {
   );
 };
 
-const CallContent = () => {
+// const CallContent = () => {
 
+//   const { useCallCallingState } = useCallStateHooks();
+//   const callingState = useCallCallingState();
+  
+//   const navigate = useNavigate();
+
+//   if(callingState === CallingState.LEFT) {
+//     return navigate("/");
+//   }
+
+//   return (
+//     <StreamTheme>
+//       <SpeakerLayout />
+//       <CallControls />
+//     </StreamTheme>
+//   );
+// };
+
+const CallContent = () => {
   const { useCallCallingState } = useCallStateHooks();
   const callingState = useCallCallingState();
-  
   const navigate = useNavigate();
 
-  if(callingState === CallingState.LEFT) {
-    return navigate("/");
+  if (callingState === CallingState.LEFT) {
+    navigate("/");
+    return null;
   }
 
   return (
-    <StreamTheme>
+    <StreamTheme
+      style={{
+        "--str-video__primary-color": "hsl(var(--p))",
+        "--str-video__background-color": "hsl(var(--b1))",
+        "--str-video__text-color": "hsl(var(--bc))",
+        "--str-video__secondary-background-color": "hsl(var(--b2))",
+        "--str-video__border-color": "hsl(var(--bc) / 0.15)",
+      }}
+    >
       <SpeakerLayout />
       <CallControls />
     </StreamTheme>
   );
 };
+
 
 export default CallPage;
