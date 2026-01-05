@@ -95,25 +95,6 @@ const CallPage = () => {
   );
 };
 
-// const CallContent = () => {
-
-//   const { useCallCallingState } = useCallStateHooks();
-//   const callingState = useCallCallingState();
-  
-//   const navigate = useNavigate();
-
-//   if(callingState === CallingState.LEFT) {
-//     return navigate("/");
-//   }
-
-//   return (
-//     <StreamTheme>
-//       <SpeakerLayout />
-//       <CallControls />
-//     </StreamTheme>
-//   );
-// };
-
 const CallContent = () => {
   const { useCallCallingState } = useCallStateHooks();
   const callingState = useCallCallingState();

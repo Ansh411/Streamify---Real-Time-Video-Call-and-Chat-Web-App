@@ -13,6 +13,7 @@ import toast from "react-hot-toast";
 import ChatLoader from "../components/ChatLoader.jsx";
 import CallButton from "../components/CallButton.jsx";
 
+
 const STREAM_API_KEY = import.meta.env.VITE_STREAM_API_KEY;
 
 
@@ -62,7 +63,7 @@ const ChatPage = () => {
       } catch (error) {
 
         console.error("Error initializing chat:", error);
-        toast.error("Could not connect to chat. Please try again.");
+        toast.error("Failed to connect chat");
         
 
       } finally {
@@ -99,7 +100,7 @@ const ChatPage = () => {
             <CallButton handleVideoCall={handleVideoCall} />
             <Window>
               <ChannelHeader />
-              <MessageList />
+              <MessageList  />
               <MessageInput focus />
             </Window>
           </div>
