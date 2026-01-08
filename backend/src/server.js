@@ -35,7 +35,7 @@ if(process.env.NODE_ENV === "production"){
     })
 }
 
-app.get("/", (_, res) => {
+app.get("/health", (_, res) => {
   res.send("Streamify Backend is running 🚀");
 });
 
