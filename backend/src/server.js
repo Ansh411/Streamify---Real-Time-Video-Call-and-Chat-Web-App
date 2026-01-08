@@ -35,10 +35,6 @@ if(process.env.NODE_ENV === "production"){
     })
 }
 
-app.get("/health", (_, res) => {
-  res.send("Streamify Backend is running 🚀");
-});
-
 app.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`);
     connectDB();
